@@ -71,6 +71,7 @@ h1, h2 {
     background-size: cover;
 }
 
+/* container holding the image and text */
 #cover-text-container {
     position: relative;
     text-align: center;
