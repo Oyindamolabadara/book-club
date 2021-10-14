@@ -98,3 +98,19 @@ h1, h2 {
 h2 {
     z-index: 1;
 } */
+
+
+
+
+/* club-info */
+
+#club-info {
+    height: 600px;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+    letter-spacing: 2px;
+}
