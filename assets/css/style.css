@@ -63,33 +63,38 @@ h1, h2 {
     border-radius: 4px;
 }
 
-/* hero image */
+/* hero image and cover text*/
+
 #hero-image {
     height: 600px;
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat center center;
     background-size: cover;
-}
-
-/* container holding the image and text */
-#cover-text-container {
     position: relative;
-    text-align: center;
 }
 
- #cover-text {
+#cover-text {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 30px;
-    height: fit-content;
-    border: solid green;
-    margin-top: 25%;
 }
 
-/* h2 {
-    /* justify-content: center;
-    align-items: center; */
+#cover-text h2 {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+/* #color-overlay {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .3;
+}
+
+h2 {
+    z-index: 1;
 } */
