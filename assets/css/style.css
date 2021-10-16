@@ -111,9 +111,9 @@ h2 {
     /* height: 700px; */
 }
 
-#welcome {
+.welcome {
     text-align: center;
-    font-size: 280%;
+    font-size: 250%;
     letter-spacing: 2px;
 }
 
