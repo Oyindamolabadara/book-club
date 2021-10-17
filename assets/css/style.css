@@ -35,9 +35,11 @@ h1, h2 {
 }
 
 #menu {
+    /* display: flex; */
     font-size: 110%;
     float: right;
     margin-right: 30px;
+    padding-left: -50em;
 }
 
 #menu, #logo {
@@ -112,10 +114,12 @@ h2 {
 }
 
 .welcome {
+    padding-top: 2em;
     text-align: center;
     font-size: 250%;
     letter-spacing: 2px;
 }
+
 
 /* #about-us {
     margin: 0 30px;
