@@ -107,7 +107,7 @@ h2 {
 /* club-info */
 
 #club-info, #gallery {
-    background-color:#F2DEA0;
+    background-color:#F2DEA0
     /* height: 700px; */
 }
 
@@ -172,4 +172,28 @@ p {
     font-size: 20px;
 }
 
+
+/* footer */
+
+footer {
+    /* height: 60px; */
+    width: 100%;
+    background: #F2F1DC;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    /* margin: 1%; */
+    /* padding: 5%; */
+    color: #0D0000;
+    margin: 10px 50px;
+}
 
