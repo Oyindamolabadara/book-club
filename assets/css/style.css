@@ -106,7 +106,7 @@ h2 {
 
 /* club-info */
 
-#club-info {
+#club-info, #gallery {
     background-color:#F2DEA0;
     /* height: 700px; */
 }
@@ -172,6 +172,4 @@ p {
     font-size: 20px;
 }
 
-/* #video {
-    margin: auto;
-} */
+
