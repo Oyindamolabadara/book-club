@@ -18,13 +18,13 @@
             <h1 id="logo">Bsc</h1>
         </a>
         <nav id="navbar">
-        
-            
+
+
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#club-info">About Us</a></li>
                 <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -40,17 +40,18 @@
         <section id="club-info">
             <h3 class="welcome">About Us</h3>
             <div>
-                
-                    <div>
-                        <p class="center">Book sitters club is a close knit community of book lovers and book enthusiasts. Started in
-                            2020 by two friends over a cup of coffee, BSC is a one-stop shop for people who love
-                            reading, talking and breathing books.
-                            At Book Sitters Club, we believe that we can develop meaningful relationships from our love
-                            of words and books. Our interests cover all genre and cater to every single type of book
-                            lover out there. Our mission is to foster deep connections with not only words but with one
-                            other people. We meet up every last Saturdays of the month at InstaCoffee Cafe. </p>
-                    </div>
-                    <div class="autofill center" >
+
+                <div>
+                    <p class="center">Book sitters club is a close knit community of book lovers and book enthusiasts.
+                        Started in
+                        2020 by two friends over a cup of coffee, BSC is a one-stop shop for people who love
+                        reading, talking and breathing books.
+                        At Book Sitters Club, we believe that we can develop meaningful relationships from our love
+                        of words and books. Our interests cover all genre and cater to every single type of book
+                        lover out there. Our mission is to foster deep connections with not only words but with one
+                        other people. We meet up every last Saturdays of the month at InstaCoffee Cafe. </p>
+                </div>
+                <div class="autofill center">
                     <div id="book">
                         <h3>Book of the month:</h3>
                         <img src="../assets/images/goodvibes.jpg" height="300" width="200"
@@ -63,25 +64,42 @@
                         <p>150, London Road,</p>
                         <p>London.</p>
                     </div>
-                
+
                 </div>
             </div>
         </section>
         <section id="gallery">
             <h3 class="welcome">Gallery</h3>
             <div class="autofill">
-                <video src="../assets/videos/book-review.mp4"  width="100%" autoplay muted loop>
+                <video src="../assets/videos/book-review.mp4" width="100%" autoplay muted loop>
                     <p>Your browser doesn't support HTML5 video</p>
                 </video>
             </div>
             <div class="autofill">
                 <img src="../assets/images/image1.jpg" height="200" width="200" alt="A group of friends reading">
-                <img src="../assets/images/image2.jpg"  height="200" width="200" alt="Book Club">
+                <img src="../assets/images/image2.jpg" height="200" width="200" alt="Book Club">
                 <img src="../assets/images/image3.jpeg" height="200" width="200" alt="Shelve with books">
                 <!-- <img src="../assets/images/image4.jpeg" height="200" width="200" alt="Group of people reading book"> -->
             </div>
         </section>
-        <form action=""></form>
+        <section class="form-section" id="contact-us">
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                <h2>Contact Us!</h2>
+                <label for="fname">First Name</label>
+                <input id="fname" name="first_name" type="text" required placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input id="lname" name="last_name" type="text" required placeholder="Your name..">
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" required placeholder="Your email address..">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
     </main>
     <footer>
         <ul class="social-networks">
