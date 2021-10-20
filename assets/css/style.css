@@ -12,6 +12,11 @@ body {
     color: #0D0000;
 }
 
+p {
+    line-height: 25px;
+    margin: auto;
+}
+
 /* headings and logo */
 
 h1, h2 {
@@ -28,6 +33,20 @@ h1, h2 {
 
 /* navigation links */
 
+/* #menu {
+    font-size: 110%;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+} */
+
 #navbar {
     height: 60px;
     width: 100%;
@@ -35,11 +54,9 @@ h1, h2 {
 }
 
 #menu {
-    /* display: flex; */
     font-size: 110%;
     float: right;
     margin-right: 30px;
-    padding-left: -50em;
 }
 
 #menu, #logo {
@@ -64,6 +81,7 @@ h1, h2 {
     background: #ba2710;
     border-radius: 4px;
 }
+
 
 /* hero image and cover text*/
 
@@ -103,14 +121,40 @@ h2 {
     z-index: 1;
 } */
 
+/* autofill */
 
+.autofill {
+    width: 80%;
+    margin: auto;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+/* video */
 
+/* .video-container {
+    width: 90%;
+} */
+
+.autofill video {
+    width: auto;
+    height: 200px;
+}
+
+/* #gallery * {
+    border: solid green;
+} */
+
+#gallery {
+    margin-top: -2em;
+}
 
 /* club-info */
 
-#club-info, #gallery {
+#club-info, #gallery, #form {
     background-color:#F2DEA0
-    /* height: 700px; */
 }
 
 .welcome {
@@ -119,57 +163,6 @@ h2 {
     font-size: 250%;
     letter-spacing: 2px;
 }
-
-
-/* #about-us {
-    margin: 0 30px;
-    font-family: Lato, sans-serif;
-    font-size: 20px;
-    width: 25%;
-} */
-
-
-.autofill {
-    width: 80%;
-    margin: auto;
-    margin-top: 3em;
-    /* border: solid green; */
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    justify-content: center;
-    /* grid-template-columns: repeat(auto-fit, minmax(165px, 200px));
-    gap: 20px; */
-}
-
-p {
-    line-height: 25px;
-    margin: auto;
-}
-
-
-@media only screen and (min-width: 400px) {
-    .autofill {
-        gap: 4em;
-    }
-}
-
-@media only screen and (min-width: 720px) {
-    .autofill {
-        flex-direction: row;
-        gap: 8em;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .autofill {
-        gap: 10em;
-    }
-}
-
-/* * {
-    border: solid red;
-} */
 
 .center {
     width: 80%;
@@ -183,7 +176,11 @@ footer {
     /* height: 60px; */
     width: 100%;
     background: #F2F1DC;
+    /* position: fixed;
+    left: 0;
+    bottom: 0; */
 }
+
 
 .social-networks {
     text-align: center;
@@ -195,8 +192,6 @@ footer {
 
 .social-networks i {
     font-size: 160%;
-    /* margin: 1%; */
-    /* padding: 5%; */
     color: #0D0000;
     margin: 10px 50px;
 }
@@ -204,14 +199,14 @@ footer {
 /* Form */
 
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #0D0000; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #0D0000; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
   }
 
   input[type=submit]:hover {
@@ -221,7 +216,35 @@ input[type=text], select, textarea {
 
 
   .form-section {
+    width: 50%;
+    margin: auto;
     border-radius: 5px;
     background-color: #F2CB9B;
     padding: 20px;
   }
+
+/* media queries */
+
+@media only screen and (min-width: 400px) {
+    .autofill {
+        gap: 4em;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .autofill {
+        flex-direction: row;
+        gap: 8em;
+    }
+    
+    .autofill video {
+        width: auto;
+        height: 450px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .autofill {
+        gap: 10em;
+    }
+}
