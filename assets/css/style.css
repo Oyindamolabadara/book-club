@@ -200,6 +200,10 @@ textarea {
     resize: vertical;
 }
 
+button {
+    font-size: 20PX;
+}
+
 button:hover {
     background-color: #ba2710;
     border-radius: 4px;
@@ -226,6 +230,12 @@ button:hover {
 @media screen and (max-width: 510px) {
     #cover-text h2 {
         font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #logo {
+        margin-left: 10px;
     }
 }
 
