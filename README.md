@@ -27,6 +27,9 @@ I used #f2cb9b for the  form section to make it stand out from other contents.
 
 # WIREFRAME
 The initial idea for this site was to be very simple and basic, but as I progressed with the design I decided to expand the design a bit more with other ideas.
+![Wireframes](assets/images/wireframe-one.png)
+![Wireframes](assets/images/wireframe-two.png)
+![Wireframes](assets/images/wireframe-three.png)
 
 # FEATURES
 I have used the following features in this project:
@@ -79,18 +82,18 @@ I have used the following features in this project:
 
 # TECHNOLOGY USED
 
-* Font Awesome:
-Font Awesome was used to add icons for the footer. 
+* Font Awesome: 
+ [Font Awesome](https://fontawesome.com/) was used to add icons for the footer. 
 * Google Fonts:
-Google Fonts was used  to import the fonts used for all the text content on the site pages.
+ [Google Fonts](https://fonts.google.com/) was used  to import the fonts used for all the text content on the site pages.
 * Git:
 Git was used for version control by using the Gitpod terminal to  commit to Git and push to GitHub.
 * GitPod:
 GitPod was used as an IDE whilst coding this site.
 * GitHub:
 GitHub is being used to store all the code for this project after being pushed from GitPod.
-* Am i Responsive:
-Am i Responsive was used to create the image in my Final Design section.
+* Am I Responsive: 
+ [Am I Responsive](http://ami.responsivedesign.is/) was used to create the images in the Final Design section.
 * Balsamiq:
 Balsamiq was used in the initial design process to make wireframes.
 * Chrome Developer Tools:
@@ -135,3 +138,4 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 # ACKNOWLEDGEMENTS:
 * Firstly, I would like to thank [AbdulFattah Badara](https://github.com/fobadara) for all his support and patience during this project. He never got tired of answering my "silly" questions. 
 * I would also like to thank my Code Institute mentor, [Anthony Ugwu](https://github.com/tonyguesswho)  for all his support, encouragement and corrections. 
+
