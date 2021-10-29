@@ -55,8 +55,7 @@ I have used the following features in this project:
 * The About us section gives details about the background of the book club, how and when it started,  it's mission and when the meet up takes place. 
 * The About Us section also contains an image of the book of the month, which would be updated as required. 
 * This section also gives details of the venue for the meet up. 
-![About Us](assets/images/about-us-one.png)
-![About Us](assets/images/about-us-two.png)
+![About Us](assets/images/about-us.png)
 
 ## The Gallery Section
 * The gallery provides the user with a video of one of the book reviews held at the Cafe.
@@ -66,6 +65,7 @@ I have used the following features in this project:
 
 ## The Contact Us Section
 * The Contact us section allows users to submit a form, containing the first and last name, email address and the message for further enquires.
+* A message showing that the form was submitted successfully also open in a new tab. 
 * This section is valuable to the user, as it gives them the ability to contact the book club if they need to. 
 ![Contact Us](assets/images/contact-us.png)
 
@@ -92,10 +92,12 @@ Git was used for version control by using the Gitpod terminal to  commit to Git 
 GitPod was used as an IDE whilst coding this site.
 * GitHub:
 GitHub is being used to store all the code for this project after being pushed from GitPod.
+* Formspree:
+[Formspree](https://formspree.io/) was used to embed the contact us form. 
 * Am I Responsive: 
- [Am I Responsive](http://ami.responsivedesign.is/) was used to create the images in the Final Design section.
-* Balsamiq:
-Balsamiq was used in the initial design process to make wireframes.
+ [Am I Responsive](http://ami.responsivedesign.is/#) was used to create the images in the Final Design section.
+* Balsamiq: 
+[Balsamiq](https://balsamiq.com/) was used in the initial design process to make wireframes.
 * Chrome Developer Tools:
 Chrome Developer Tools was used for trouble shooting and trying new visual changes without it affecting the current code.
 
@@ -136,6 +138,6 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 * The video in the gallery was also taken from [Pexels.](https://www.pexels.com/video/group-of-people-talking-while-holding-a-book-5359175/)
 
 # ACKNOWLEDGEMENTS:
-* Firstly, I would like to thank [AbdulFattah Badara](https://github.com/fobadara) for all his support and patience during this project. He never got tired of answering my "silly" questions. 
+* I would like to thank [AbdulFattah Badara](https://github.com/fobadara) for all his support and patience during this project. 
 * I would also like to thank my Code Institute mentor, [Anthony Ugwu](https://github.com/tonyguesswho)  for all his support, encouragement and corrections. 
 
