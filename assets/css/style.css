@@ -212,6 +212,15 @@ button:hover {
 }
 
 @media screen and (min-width: 480px) {
+
+  #navbar {
+    height: 60px;
+  }
+
+  #logo {
+    margin-top: -0.2em;
+  }
+
   header #menu {
     width: 60%;
     grid-template-columns: repeat(auto-fill, minmax(90px, 25%));
@@ -223,7 +232,7 @@ button:hover {
     gap: 25%;
     width: max-content;
     height: 2em;
-    margin-top: auto;
+    margin-top: 0.8em;
   }
 
   #club-info .autofill {
@@ -232,7 +241,7 @@ button:hover {
 
   .gallery-img {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 25%));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 20%));
     gap: 0.8em;
     width: 80%;
     justify-items: center;
