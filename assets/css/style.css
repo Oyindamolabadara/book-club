@@ -26,9 +26,11 @@ h2 {
 }
 
 #logo {
+  /* border: solid red; */
   font-family: Roboto, sans-serif;
   font-size: 2.5em;
   margin-top: 0.4em;
+  margin-left: 5px;
 }
 
 /* navigation links */
@@ -43,6 +45,7 @@ h2 {
 }
 
 header #menu {
+  /* border: solid red; */
   display: grid;
   grid-template-columns: 1fr;
   margin-left: 15%;
@@ -181,10 +184,14 @@ textarea {
   resize: vertical;
 }
 
+button{
+  font-size: 20px;
+}
+
 button:hover {
-  background-color: #ba2710;
+  background-color: #f2dea0;
   border-radius: 4px;
-  padding: 5px;
+  padding: 9px;
 }
 
 .form-section {
@@ -196,12 +203,12 @@ button:hover {
 }
 
 /* media queries */
+
 @media screen and (min-width: 480px) {
   
   header #menu {
-    /* border: solid blue; */
     width: 60%;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(90px, 25%));
   }
 
   #menu li {
@@ -213,6 +220,27 @@ button:hover {
   .gallery-img {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.8em;
+    width: 80%;
+    justify-items: center;
+    margin: auto;
+  }
+  
+  #autofill-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 3em;
+  /* display: grid; */
+  /* flex-direction: row; */
+  gap: 15px;
+  justify-items: center;
+  }
+}
+
+@media screen and (min-width: 270px) {
+  .gallery-img {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
     gap: 0.8em;
     width: 80%;
     justify-items: center;

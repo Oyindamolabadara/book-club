@@ -78,7 +78,7 @@ I have used the following features in this project:
 
 # TECHNOLOGY USED
 
-*Font Awesome:
+* Font Awesome:
 Font Awesome was used to add icons for the footer. 
 * Google Fonts:
 Google Fonts was used  to import the fonts used for all the text content on the site pages.
@@ -97,12 +97,12 @@ Chrome Developer Tools was used for trouble shooting and trying new visual chang
 
 # TESTING
 * I tested that this page works in different browsers.
-* I have ensured that this project is responsive, looks goo and functions on all  standard screen sizes using the devtools device toolbar.
+* I have ensured that this project is responsive, looks good and functions on all  standard screen sizes using the devtools device toolbar.
 * I have confirmed that all texts are readable and easy to understand. 
 * I have confirmed that the form works, requires entries in every field,  will only accept an email in the email field and the submit button works. 
 
 # Validator Testing
-The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure no errors were returned.
+The [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Foyindamolabadara.github.io%2Fbook-club%2F) and [W3C CSS Validator] was used to validate my project to make sure no errors were returned.
 
 # Accessibility
 I confirmed that colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
