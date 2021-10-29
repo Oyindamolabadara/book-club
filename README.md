@@ -72,8 +72,9 @@ I have used the following features in this project:
 ![Footer](assets/images/footer.png)
 
 # SOLVED BUGS
-* When I ran my code through W3C Validators, I was given an error message saying there was a bad value for the width on the video element. Expected a digit but saw percentage instead. This was fixed by removing the percentage and changing the value. 
+* When I ran my code through W3C Validators, I was given an error message saying there was a bad value for the width on the video element. Expected a digit but saw percentage instead. This was fixed by removing the percentage and changing the value, i.e from 80% to 80.  
 * I designed for the desktop version first, which gave me some issues whilst trying to make the site responsive, the images in the gallery section and the navbar specifically. I managed to fix this using the grid-template-column. 
+* Another error message was given on the W3C Validators about the grid-template-columns. It said 1fr is not a gap value. This was fixed by changing 1fr to 25%. 
 * After checking again, there were no further errors. 
 
 # TECHNOLOGY USED
@@ -101,10 +102,36 @@ Chrome Developer Tools was used for trouble shooting and trying new visual chang
 * I have confirmed that all texts are readable and easy to understand. 
 * I have confirmed that the form works, requires entries in every field,  will only accept an email in the email field and the submit button works. 
 
-# Validator Testing
-The [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Foyindamolabadara.github.io%2Fbook-club%2F) and [W3C CSS Validator] was used to validate my project to make sure no errors were returned.
+# VALIDATOR TESTING
+The [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Foyindamolabadara.github.io%2Fbook-club%2F) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Foyindamolabadara.github.io%2Fbook-club%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)  was used to validate my project to make sure no errors were returned.
 
-# Accessibility
+# ACCESSIBILITY
 I confirmed that colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 ![Light house](assets/images/light-house.png)
 
+# DEPLOYMENT
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+1. Login or Sign Up to GitHub.
+2. Create a new repository named "book-club".
+3. Once created, click on "Settings" on the navigation bar under the repository title.
+4. Click on "Pages", on the left hand side below Secrets.
+5. Under "Source", choose which branch you wish to deploy, In most cases it will be "main".
+6. Choose which folder to deploy from, generally from "/root".
+7. Click "Save", then wait for it to be deployed. It may take some time for the page to be fully deployed.
+8. The URL will be displayed above the "source" section in GitHub Pages.
+
+[The live link can be found here.]( https://oyindamolabadara.github.io/book-club/) 
+
+# CREDITS
+## CONTENTS
+* The code to make the social media links was taken from CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/06-site-footer/01-footer-main-structure/index.html) Project. 
+* The code to make the form was taken from the [W3 Schools Website](https://www.w3schools.com/howto/howto_css_contact_form.asp) with some adjustments. 
+
+## MEDIA
+* The book of the month image was taken from [Google](https://www.google.com/search?q=good+vibes+good+life&rlz=1CAGMMR_enGB947&sxsrf=AOaemvKjtVCv-ElpgW9aab04ekxd2u_ZdA:1634833033628&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjZtPHR89vzAhUjyYUKHTfEDi8Q_AUoAnoECAEQBA&biw=1300&bih=580&dpr=1.05)
+* Other images were taken from [Pixels.](https://www.pexels.com/photo/photography-of-library-room-12064/)
+* The video in the gallery was also taken from [Pexels.](https://www.pexels.com/video/group-of-people-talking-while-holding-a-book-5359175/)
+
+# ACKNOWLEDGEMENTS:
+* Firstly, I would like to thank [AbdulFattah Badara](https://github.com/fobadara) for all his support and patience during this project. He never got tired of answering my "silly" questions. 
+* I would also like to thank my Code Institute mentor, [Anthony Ugwu](https://github.com/tonyguesswho)  for all his support, encouragement and corrections. 
