@@ -212,7 +212,7 @@ button:hover {
   }
 
   #menu li {
-    gap: 1fr;
+    gap: 25%;
     height: 2em;
     margin-top: auto;
   }
