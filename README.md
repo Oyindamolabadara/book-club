@@ -3,6 +3,8 @@ BSC is a site that is targeted towards bringing  together a small group of young
 BSC will be useful for book lovers to see what book would be read monthly at the regular meet up venue and time. 
 Users of this website would find information about BSC; About us, meeting time, venue and a contact form for further enquires. 
 
+* [The live link can be found here.]( https://oyindamolabadara.github.io/book-club/) 
+
 # FINAL DESIGN
 ![Final design](assets/images/final-design.png)
 
@@ -124,8 +126,6 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 6. Choose which folder to deploy from, generally from "/root".
 7. Click "Save", then wait for it to be deployed. It may take some time for the page to be fully deployed.
 8. The URL will be displayed above the "source" section in GitHub Pages.
-
-[The live link can be found here.]( https://oyindamolabadara.github.io/book-club/) 
 
 # CREDITS
 ## CONTENTS
